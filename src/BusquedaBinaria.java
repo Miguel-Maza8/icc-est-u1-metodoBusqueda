@@ -29,10 +29,10 @@ public class BusquedaBinaria {
         int comparacion = personas[central].getEdad() - (edad);
          if (comparacion< 0){
           System.out.print("--> DERECHA");
-            bajo = central +1 ;
+          bajo = central +1 ;
           System.out.println();
           System.out.println();
-           } else {
+        } else {
             System.out.print("--> IZQUIERDA");
             alto = central -1;
             System.out.println();
