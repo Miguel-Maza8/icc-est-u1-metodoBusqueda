@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) throws Exception {
     Person[] personas =generatePersonsList() ;
     BusquedaBinaria busqueda = new BusquedaBinaria();
-    busqueda.sortByName(personas);
+    busqueda.sortByEdad(personas);
     System.out.println();
     int res = busqueda.findByEdad( personas , 18 );
      if (res >= 0){

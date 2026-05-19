@@ -45,7 +45,7 @@ public class BusquedaBinaria {
    return -1; // no encontrado
   }
 
-  public void sortByName(Person[]personas) {
+  public void sortByEdad(Person[]personas) {
     for (int i = 0; i < personas.length-1 ; i++){
         boolean swap = false;
       for ( int j = 0 ; j < personas.length -i -1; j++){
